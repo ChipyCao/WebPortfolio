@@ -11,9 +11,9 @@ body {
 /*NAVBAR*/
 .navbar {
   background-color: #111111;
-  position: fixed; /* Set the navbar to fixed position */
+  position: center; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  width: auto;
   display: flex;
   justify-content: center;
 }
@@ -142,9 +142,9 @@ body {
 }
 
 .box-shadow {
-  -webkit-box-shadow: 0px 0px 1px 0px rgba(245,245,245,0.75);
-  -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0 0 1px 0 rgba(245,245,245,0.75);
+  -moz-box-shadow: 0 0 1px 0 rgba(0,0,0,0.75);
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.75);
 }
 
 h2 {
